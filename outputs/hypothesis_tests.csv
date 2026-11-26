@@ -1,0 +1,18 @@
+Hypothesis,Test,Statistic,p_value,Effect,Effect_metric,p_bonferroni,Verdict
+Order value differs by Region,One-way ANOVA,0.9873389894007448,0.41325556977903855,0.0026347494275948615,eta²,1.0,Not significant
+Order value differs by Product,Kruskal-Wallis,10.146642970506036,0.11861085891378757,0.00277738979940123,epsilon² (approx.),1.0,Not significant
+Order value differs by Salesperson,One-way ANOVA,2.2064930279528956,0.051321428484768346,0.007330383493581291,eta²,0.8724642842410619,Not significant
+Order value: Wholesale vs Retail,Welch t-test,-0.47170483583756506,0.6372061939430211,-0.024359311633270545,Cohen's d,1.0,Not significant
+Order value differs by Discount level,Kruskal-Wallis,4.53236649891187,0.20942137525018498,0.001024309157026651,epsilon² (approx.),1.0,Not significant
+Order value differs by Promotion,Kruskal-Wallis,0.33970234584467107,0.9523964837049701,-0.00177827383299153,epsilon² (approx.),1.0,Not significant
+Order value correlates with Quantity,Pearson r,0.6664593727127998,2.835545168264654e-193,0.6664593727127998,r,4.820426786049912e-192,Significant (survives correction)
+Return rate differs by Region,Chi-square,1.9149643613496266,0.7513954998077178,0.0357301400440359,Cramér's V,1.0,Not significant
+Return rate differs by Product,Chi-square,4.578596000910126,0.5988787930220778,0.05524850526430633,Cramér's V,1.0,Not significant
+Return rate differs by CustomerType,Chi-square,0.22742453000405588,0.6334401113245429,0.01231325924911992,Cramér's V,1.0,Not significant
+Return rate differs by Salesperson,Chi-square,3.8324071343601527,0.5737888207667241,0.050546395416225624,Cramér's V,1.0,Not significant
+Return rate differs by PaymentMethod,Chi-square,11.316932578609277,0.023223812678205016,0.0868597819423515,Cramér's V,0.39480481552948526,Nominal only (fails correction)
+Return rate differs by StoreLocation,Chi-square,2.015626371312426,0.5691697358212091,0.03665720821623332,Cramér's V,1.0,Not significant
+Return rate differs by Promotion,Chi-square,0.476984685763865,0.9239178878653163,0.017832268237923166,Cramér's V,1.0,Not significant
+Return rate differs by Discount level,Chi-square,0.8817231406154099,0.829836044982365,0.024244905177726307,Cramér's V,1.0,Not significant
+Return rate correlates with Shipping cost,Point-biserial r,-0.008132396132191994,0.7529826261863218,-0.008132396132191994,r,1.0,Not significant
+Return rate correlates with Delivery days,Point-biserial r,0.0019023016028576509,0.9413171563460395,0.0019023016028576509,r,1.0,Not significant
