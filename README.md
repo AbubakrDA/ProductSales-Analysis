@@ -41,6 +41,8 @@ The project answers five core business questions:
 ├── README.md                        # Project documentation
 ├── assets/                          # Charts embedded in README.md
 │   ├── business_performance_overview.png # Regional revenue & monthly trend overview
+│   ├── eda_bivariate_and_customers.png   # Product order-value boxplots & customer frequency
+│   ├── eda_distributions_and_correlation.png # Order-value skew & Pearson correlation matrix
 │   ├── hypothesis_tests_pvalues.png # Nominal p-values & Bonferroni verdicts across 17 tests
 │   ├── return_rate_payment_ci.png   # Return rate by payment method with 95% CIs
 │   └── statistical_ci_and_correlation.png # Regional AOV bootstrap CIs & Quantity correlation
@@ -158,6 +160,10 @@ Section 5 provides a comprehensive 12-part exploratory pass before hypothesis te
 - **5.10 Price–Quantity Relationship & Discount Dollar Impact:** Regression scatter plot of `UnitPrice` vs. `Quantity` and boxplots of `DiscountAmount` by `CustomerType` (`$347,900.51` total discounts given; avg `$231.93`/order, median `$113.34`).
 - **5.11 Operational EDA (Delivery Time & Shipping Cost):** Regional and store-level comparisons of `DeliveryDays` (median `6–7` days across all regions) and `ShippingCost` (avg `$25.90–$28.45`).
 - **5.12 EDA Summary & Key Takeaways:** Synthesizes distributional findings, customer concentration, category balance, and operational consistency to frame Sections 6 and 7.
+
+![EDA Distributions & Correlation Matrix](assets/eda_distributions_and_correlation.png)
+
+![EDA Bivariate Boxplots & Customer Repeat Purchases](assets/eda_bivariate_and_customers.png)
 
 ### Step 6: Business Performance Analysis
 - Headline KPIs and breakdowns across **Region**, **Product**, **Time** (monthly & half-year), **CustomerType**, **PaymentMethod**, **StoreLocation**, **Salesperson**, **Discounts & Promotions**, and **Return Drivers** (including delivery time & shipping cost).
