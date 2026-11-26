@@ -1,5 +1,12 @@
 # Product Sales by Region — End-to-End Analysis & Interactive Dashboard
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.2%2B-150458?logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.66%2B-FF4B4B?logo=streamlit&logoColor=white)
+![Altair](https://img.shields.io/badge/Altair-6.3%2B-4C72B0)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![AI-Assisted](https://img.shields.io/badge/Workflow-AI--Assisted%20Analysis-6E40C9)
+
 An end-to-end exploratory data analysis, statistical testing suite, and interactive Streamlit dashboard built on **1,500 regional product orders** (`Jan 2023 – Jun 2025`), developed with **AI-assisted data analysis** workflows.
 
 The project answers five core business questions:
@@ -8,6 +15,19 @@ The project answers five core business questions:
 3. How is performance changing over time?
 4. Do discounts and promotions measurably increase order value or reduce returns?
 5. Which observed differences are statistically significant versus random noise?
+
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [Repository Structure](#repository-structure)
+- [Dataset Overview](#dataset-overview)
+- [Getting Started](#getting-started)
+- [Step-by-Step Analysis Pipeline](#step-by-step-analysis-pipeline)
+- [Interactive Dashboard (streamlit_app.py)](#interactive-dashboard-streamlit_apppy)
+- [Key Findings & Recommendations](#key-findings--recommendations)
+- [AI-Assisted Data Analysis](#ai-assisted-data-analysis)
+
+</details>
 
 ---
 
