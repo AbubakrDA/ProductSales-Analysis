@@ -1,6 +1,6 @@
 # Product Sales by Region — End-to-End Analysis & Interactive Dashboard
 
-An end-to-end exploratory data analysis, statistical testing suite, and interactive Streamlit dashboard built on **1,500 regional product orders** (`Jan 2023 – Jun 2025`).
+An end-to-end exploratory data analysis, statistical testing suite, and interactive Streamlit dashboard built on **1,500 regional product orders** (`Jan 2023 – Jun 2025`), developed with **AI-assisted data analysis** workflows.
 
 The project answers five core business questions:
 1. How much revenue is generated, and how much is lost to returns?
@@ -184,3 +184,13 @@ Adds time, revenue, and operational features and saves `outputs/sales_clean.csv`
 3. **Run controlled holdout tests** for promotions before renewing promotional spend.
 4. **Add discount guardrails** (e.g., above 10%) since deeper discounts are not linked to larger orders.
 5. **Track product cost and margin data** so discounting and return decisions can be evaluated on profit rather than revenue alone.
+
+---
+
+## AI-Assisted Data Analysis
+
+This project leverages **AI-assisted data analysis** to accelerate the end-to-end analytics workflow while maintaining reproducibility and statistical rigor:
+- **Code & Pipeline Generation:** Structuring data validation checks, feature engineering, and automated Excel/CSV exports in `Product_Sales_Analysis.ipynb`.
+- **Statistical Test Selection & Interpretation:** Mapping business questions to appropriate parametric and non-parametric tests (ANOVA, Kruskal-Wallis, Welch's t-test, Chi-square, Pearson, and point-biserial correlation) alongside effect sizes and multiple-testing corrections.
+- **Interactive App Development:** Converting the notebook's static 9-panel Matplotlib dashboard into the interactive `streamlit_app.py` application with user-controlled slicers, filters, and Altair tooltips.
+- **Documentation & Storytelling:** Translating statistical outputs into executive findings, prioritized recommendations, and clear repository documentation.
