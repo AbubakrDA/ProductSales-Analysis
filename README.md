@@ -112,7 +112,11 @@ Adds time, revenue, and operational features and saves `outputs/sales_clean.csv`
 - **Operations:** `DeliveryDays = (DeliveryDate - OrderDate).dt.days`
 
 ### Step 5: Exploratory Data Analysis (EDA)
-- Numeric summary statistics, distributions, category balance checks, outlier detection, and correlation overview.
+- **5.1–5.5 Core Univariate & Correlation Checks:** Numeric summary statistics & skewness, distributions, category balance, IQR outlier detection (kept as valid large orders), and Pearson correlation matrix.
+- **5.6 Bivariate Distributions:** Boxplots and violin plots of `TotalPrice` across `CustomerType`, `Product`, and `Returned` status.
+- **5.7 Customer Repeat-Purchase Behaviour:** Order frequency and total spend distribution across `1,371` unique customers (`9.0%` repeat buyers).
+- **5.8 Day-of-Week & Calendar-Month Seasonality:** Order volume by day of week and average order value across calendar months.
+- **5.9 Cross-Tabulation & Confounding Checks:** `Region × StoreLocation` order counts and `PaymentMethod × CustomerType` shares.
 
 ### Step 6: Business Performance Analysis
 - Headline KPIs and breakdowns across **Region**, **Product**, **Time** (monthly & half-year), **CustomerType**, **PaymentMethod**, **StoreLocation**, **Salesperson**, **Discounts & Promotions**, and **Return Drivers** (including delivery time & shipping cost).
